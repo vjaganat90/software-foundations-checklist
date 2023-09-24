@@ -1,0 +1,325 @@
+# Software-Foundations-Checklist
+
+A checklist of the exercises I have completed in the [Software Foundations](https://softwarefoundations.cis.upenn.edu/current/index.html) series.
+
+## Why a checklist?  Why not a collection of solutions?
+
+[Software Foundations - Volume 1: Logical Foundations - Preface - Practicalities - Exercises](https://softwarefoundations.cis.upenn.edu/current/lf-current/Preface.html#lab10) explicitly requests its readers not to share solutions online in order not to spoil any university courses that may utilize it as a teaching resource or course curriculum:
+
+> Please do not post solutions to the exercises in a public place.
+
+The format for this checklist is copied from : [DonaldKellett](https://github.com/DonaldKellett/Software-Foundations-Checklist/)
+
+This checklist is for the book version  :  Version 6.0 (2021-05-26 09:57, Coq 8.12 or later)
+
+## The Checklist
+
+- [ ] Volume 1: Logical Foundations
+- - [x] Functional Programming in Coq
+- - - [x] Data and Functions
+- - - - [x] Booleans
+- - - - - [x] Exercise: 1 star, standard (nandb)
+- - - - - [x] Exercise: 1 star, standard (andb3)
+- - - - [x] Numbers
+- - - - - [x] Exercise: 1 star, standard (factorial)
+- - - - - [x] Exercise: 1 star, standard (ltb)
+- - - [x] Proof by Rewriting
+- - - - [x] Exercise: 1 star, standard (plus\_id\_exercise)
+- - - - [x] Exercise: 2 stars, standard (mult\_S\_1)
+- - - [x] Proof by Case Analysis
+- - - - [x] Exercise: 2 stars, standard (andb\_true\_elim2)
+- - - - [x] Exercise: 1 star, standard (zero\_nbeq\_plus\_1)
+- - - - [x] Fixpoints and Structural Recursion (Optional)
+- - - - - [x] Exercise: 2 stars, standard, optional (decreasing)
+- - - [x] More Exercises
+- - - - [x] Exercise: 1 star, standard (indentity\_fn\_applied\_twice)
+- - - - [x] Exercise: 1 star, standard (negation\_fn\_applied\_twice)
+- - - - [x] Exercise: 3 stars, standard, optional (andb\_eq\_orb)
+- - - - [x] Exercise: 3 stars, standard (binary)
+- - [x] Proof by Induction
+- - - [x] Proof by Induction
+- - - - [x] Exercise: 2 stars, standard, recommended (basic\_induction)
+- - - - [x] Exercise: 2 stars, standard (double\_plus)
+- - - - [x] Exercise: 2 stars, standard, optional (evenb\_S)
+- - - - [x] Exercise: 1 star, standard (destruct\_induction)
+- - - [x] Formal vs. Informal Proof
+- - - - [x] Exercise: 2 stars, advanced, recommended (plus\_comm\_informal)
+- - - - [x] Exercise: 2 stars, standard, optional (eqb\_refl\_informal)
+- - - [x] More Exercises
+- - - - [x] Exercise: 3 stars, standard, recommended (mult\_comm)
+- - - - [x] Exercise: 3 stars, standard, optional (more\_exercises)
+- - - - [x] Exercise: 2 stars, standard, optional (eqb\_refl)
+- - - - [x] Exercise: 2 stars, standard, optional (plus\_swap')
+- - - - [x] Exercise: 3 stars, standard, recommended (binary\_commute)
+- - - - [x] Exercise: 5 stars, advanced (binary\_inverse)
+- - [x] Working with Structured Data
+- - - [x] Pairs of Numbers
+- - - - [x] Exercise: 1 star, standard (snd\_fst\_is\_swap)
+- - - - [x] Exercise: 1 star, standard, optional (fst\_swap\_is\_snd)
+- - - [x] Lists of Numbers
+- - - - [x] Exercises
+- - - - - [x] Exercise: 2 stars, standard, recommended (list\_funs)
+- - - - - [x] Exercise: 3 stars, advanced (alternate)
+- - - - [x] Bags via Lists
+- - - - - [x] Exercise: 3 stars, standard, recommended (bag\_functions)
+- - - - - [x] Exercise: 3 stars, standard, optional (bag\_more\_functions)
+- - - - - [x] Exercise: 2 stars, standard, recommended (bag\_theorem)
+- - - [x] Reasoning About Lists
+- - - - [x] List Exercises, Part 1
+- - - - - [x] Exercise: 3 stars, standard (list\_exercises)
+- - - - - [x] Exercise: 2 stars, standard (eqblist)
+- - - - [x] List Exercises, Part 2
+- - - - - [x] Exercise: 1 star, standard (count\_member\_nonzero)
+- - - - - [x] Exercise: 3 stars, advanced (remove\_does\_not\_increase\_count)
+- - - - - [x] Exercise: 3 stars, standard, optional (bag\_count\_sum)
+- - - - - [x] Exercise: 4 stars, advanced (rev\_injective)
+- - - [x] Options
+- - - - [x] Exercise: 2 stars, standard (hd\_error)
+- - - - [x] Exercise: 1 star, standard, optional (option\_elim\_hd)
+- - - [x] Partial Maps
+- - - - [x] Exercise: 1 star, standard (eqb\_id\_refl)
+- - - - [x] Exercise: 1 star, standard (update\_eq)
+- - - - [x] Exercise: 1 star, standard (update\_neq)
+- - - - [x] Exercise: 2 stars, standard (baz\_num\_elts)
+- - [x] Polymorphism and Higher-Order Functions
+- - - [x] Polymorphism
+- - - - [x] Polymorphic Lists
+- - - - - [x] Exercise: 2 stars, standard (mumble\_grumble)
+- - - - - [x] Exercises
+- - - - - - [x] Exercise: 2 stars, standard, optional (poly\_exercises)
+- - - - - - [x] Exercise: 2 stars, standard, optional (more\_poly\_exercises)
+- - - - [x] Polymorphic Pairs
+- - - - - [x] Exercise: 1 star, standard, optional (combine\_checks)
+- - - - - [x] Exercise: 2 stars, standard, recommended (split)
+- - - - [x] Polymorphic Options
+- - - - - [x] Exercise: 1 star, standard, optional (hd\_error\_poly)
+- - - [x] Functions as Data
+- - - - [x] Anonymous Functions
+- - - - - [x] Exercise: 2 stars, standard (filter\_even\_gt7)
+- - - - - [x] Exercise: 3 stars, standard (partition)
+- - - - [x] Map
+- - - - - [x] Exercises
+- - - - - - [x] Exercise: 3 stars, standard (map\_rev)
+- - - - - - [x] Exercise: 2 stars, standard, recommended (flat\_map)
+- - - - - - [x] Exercise: 2 stars, standard, optional (implicit\_args)
+- - - - [x] Fold
+- - - - - [x] Exercise: 1 star, advanced (fold\_types\_different)
+- - - [x] Additional Exercises
+- - - - [x] Exercise: 2 stars, standard (fold\_length)
+- - - - [x] Exercise: 3 stars, standard (fold\_map)
+- - - - [x] Exercise: 2 stars, advanced (currying)
+- - - - [x] Exercise: 2 stars, advanced (nth\_error\_informal)
+- - - - [x] Exercise: 1 star, advanced (church\_succ)
+- - - - [x] Exercise: 1 star, advanced (church\_plus)
+- - - - [x] Exercise: 2 stars, advanced (church\_mult)
+- - - - [x] Exercise: 2 stars, advanced (church\_exp)
+- - [x] More Basic Tactics
+- - - [x] The `apply` tactic
+- - - - [x] Exercise: 2 stars, standard, optional (silly\_ex)
+- - - - [x] Exercise: 3 stars, standard (apply\_exercise1)
+- - - - [x] Exercise: 1 star, standard, optional (apply\_rewrite)
+- - - [x] The `apply with` tactic
+- - - - [x] Exercise: 3 stars, standard, optional (apply\_with\_exercise)
+- - - [x] The `injection` and `discriminate` Tactics
+- - - - [x] Exercise: 1 star, standard (injection\_ex3)
+- - - - [x] Exercise: 1 star, standard (discriminate\_ex3)
+- - - [x] Using Tactics on Hypotheses
+- - - - [x] Exercise: 3 stars, standard, recommended (plus\_n\_n\_injective)
+- - - [x] Varying the Induction Hypothesis
+- - - - [x] Exercise: 2 stars, standard (eqb\_true)
+- - - - [x] Exercise: 2 stars, advanced (eqb\_true\_informal)
+- - - - [x] Exercise: 3 stars, standard, recommended (gen\_dep\_practice)
+- - - [x] Using `destruct` on Compound Expressions
+- - - - [x] Exercise: 3 stars, standard, optional (combine\_split)
+- - - - [x] Exercise: 2 stars, standard (destruct\_eqn\_practice)
+- - - [x] Additional Exercises
+- - - - [x] Exercise: 3 stars, standard (eqb\_sym)
+- - - - [x] Exercise: 3 stars, advanced, optional (eqb\_sym\_informal)
+- - - - [x] Exercise: 3 stars, standard, optional (eqb\_trans)
+- - - - [x] Exercise: 3 stars, advanced (split\_combine)
+- - - - [x] Exercise: 3 stars, advanced (filter\_exercise)
+- - - - [x] Exercise: 4 stars, advanced, recommended (forall\_exists\_challenge)
+- - [x] Logic in Coq
+- - - [x] Logical Connectives
+- - - - [x] Conjunction
+- - - - - [x] Exercise: 2 stars, standard (and\_exercise)
+- - - - - [x] Exercise: 1 star, standard, optional (proj2)
+- - - - - [x] Exercise: 2 stars, standard (and\_assoc)
+- - - - [x] Disjunction
+- - - - - [x] Exercise: 1 star, standard (mult\_eq\_0)
+- - - - - [x] Exercise: 1 star, standard (or\_commut)
+- - - - [x] Falsehood and Negation
+- - - - - [x] Exercise: 2 stars, standard, optional (not\_implies\_our\_not)
+- - - - - [x] Exercise: 2 stars, advanced (double\_neg\_inf)
+- - - - - [x] Exercise: 2 stars, standard, recommended (contrapositive)
+- - - - - [x] Exercise: 1 star, standard (not\_both\_true\_and\_false)
+- - - - - [x] Exercise: 1 star, advanced (informal\_not\_PNP)
+- - - - [x] Logical Equivalence
+- - - - - [x] Exercise: 1 star, standard, optional (iff\_properties)
+- - - - - [x] Exercise: 3 stars, standard (or\_distributes\_over\_and)
+- - - - [x] Existential Quantification
+- - - - - [x] Exercise: 1 star, standard, recommended (dist\_not\_exists)
+- - - - - [x] Exercise: 2 stars, standard (dist\_exists\_or)
+- - - [x] Programming with Propositions
+- - - - [x] Exercise: 2 stars, standard (In\_map\_iff)
+- - - - [x] Exercise: 2 stars, standard (In\_app\_iff)
+- - - - [x] Exercise: 3 stars, standard, recommended (All)
+- - - - [x] Exercise: 3 stars, standard (combine\_odd\_even)
+- - - [x] Coq vs. Set Theory
+- - - - [x] Functional Extensionality
+- - - - - [x] Exercise: 4 stars, standard (tr\_rev\_correct)
+- - - - [x] Propositions and Booleans
+- - - - - [x] Exercise: 3 stars, standard (evenb\_double\_conv)
+- - - - - [x] Exercise: 2 stars, standard (logical\_connectives)
+- - - - - [x] Exercise: 1 star, standard (eqb\_neq)
+- - - - - [x] Exercise: 3 stars, standard (eqb\_list)
+- - - - - [x] Exercise: 2 stars, standard, recommended (All\_forallb)
+- - - - [x] Classical vs. Constructive Logic
+- - - - - [x] Exercise: 3 stars, standard (excluded\_middle\_irrefutable)
+- - - - - [x] Exercise: 3 stars, advanced (not\_exists\_dist)
+- - - - - [x] Exercise: 5 stars, standard, optional (classical\_axioms)
+- - [ ] Inductively Defined Propositions
+- - - [x] Inductively Defined Propositions
+- - - - [x] Inductive Definition of Evenness
+- - - - - [x] Exercise: 1 star, standard (ev\_double)
+- - - [x] Using Evidence in Proofs
+- - - - [x] Inversion on Evidence
+- - - - - [x] Exercise: 1 star, standard (inversion\_practice)
+- - - - - [x] Exercise: 1 star, standard (even5\_nonsense)
+- - - - [x] Induction on Evidence
+- - - - - [x] Exercise: 2 stars, standard (ev\_sum)
+- - - - - [x] Exercise: 4 stars, advanced, optional (even'\_ev)
+- - - - - [x] Exercise: 3 stars, advanced, recommended (ev\_ev\_\_ev)
+- - - - - [x] Exercise: 3 stars, standard, optional (ev\_plus\_plus)
+- - - [x] Inductive Relations
+- - - - [x] Exercise: 2 stars, standard, optional (total\_relation)
+- - - - [x] Exercise: 2 stars, standard, optional (empty\_relation)
+- - - - [x] Exercise: 3 stars, standard, optional (le\_exercises)
+- - - - [x] Exercise: 2 stars, standard, optional (leb\_iff)
+- - - - [x] Exercise: 3 stars, standard, recommended (R\_provability)
+- - - - [x] Exercise: 3 stars, standard, optional (R\_fact)
+- - - - [x] Exercise: 2 stars, advanced (subsequence)
+- - - - [x] Exercise: 2 stars, standard, optional (R\_provability2)
+- - - [x] Case Study: Regular Expressions
+- - - - [x] Exercise: 3 stars, standard (exp\_match\_ex1)
+- - - - [x] Exercise: 4 stars, standard, optional (reg\_exp\_of\_list\_spec)
+- - - - [x] Exercise: 4 stars, standard (re\_not\_empty)
+- - - - [x] The `remember` Tactic
+- - - - - [x] Exercise: 4 stars, standard, optional (exp\_match\_ex2)
+- - - - - [x] Exercise: 5 stars, standard (weak_pumping)
+- - - - - [ ] Exercise: 5 stars, advanced (pumping)
+- - - [x] Case Study: Improving Reflection
+- - - - [x] Exercise: 2 stars, standard, recommended (reflect\_iff)
+- - - - [x] Exercise: 3 stars, standard, recommended (eqbP\_practice)
+- - - [ ] Additional Exercises
+- - - - [x] Exercise: 3 stars, standard, recommended (nostutter\_defn)
+- - - - [ ] Exercise: 4 stars, advanced (filter\_challenge)
+- - - - [ ] Exercise: 5 stars, advanced, optional (filter\_challenge\_2)
+- - - - [ ] Exercise: 4 stars, standard, optional (palindromes)
+- - - - [ ] Exercise: 5 stars, standard, optional (palindrome\_converse)
+- - - - [ ] Exercise: 4 stars, advanced, optional (NoDup)
+- - - - [ ] Exercise: 4 stars, advanced, optional (pigeonhole\_principle)
+- - - - [ ] Extended Exercise: A Verified Regular-Expression Matcher
+- - - - - [ ] Exercise: 3 stars, standard, optional (app\_ne)
+- - - - - [ ] Exercise: 3 stars, standard, optional (star\_ne)
+- - - - - [ ] Exercise: 2 stars, standard, optional (match\_eps)
+- - - - - [ ] Exercise: 3 stars, standard, optional (match\_eps\_refl)
+- - - - - [ ] Exercise: 3 stars, standard, optional (derive)
+- - - - - [ ] Exercise: 4 stars, standard, optional (derive\_corr)
+- - - - - [ ] Exercise: 2 stars, standard, optional (regex\_match)
+- - - - - [ ] Exercise: 3 stars, standard, optional (regex\_refl)
+
+<!---
+
+- - [x] Total and Partial Maps
+ - - - [x] Total Maps
+- - - - [x] Exercise: 1 star, standard, optional (t\_apply\_empty)
+- - - - [x] Exercise: 2 stars, standard, optional (t\_update\_eq)
+- - - - [x] Exercise: 2 stars, standard, optional (t\_update\_neq)
+- - - - [x] Exercise: 2 stars, standard, optional (t\_update\_shadow)
+- - - - [x] Exercise: 2 stars, standard, optional (eqb\_stringP)
+- - - - [x] Exercise: 2 stars, standard (t\_update\_same)
+- - - - [x] Exercise: 3 stars, standard, recommended (t\_update\_permute)
+- - [x] The Curry-Howard Correspondence
+- - - [x] Proof Scripts
+- - - - [x] Exercise: 2 stars, standard (eight\_is\_even)
+- - - [x] Logical Connectives as Inductive Types
+- - - - [x] Conjunction
+- - - - - [x] Exercise: 2 stars, standard, optional (conj\_fact)
+- - - - [x] Disjunction
+- - - - - [x] Exercise: 2 stars, standard, optional (or\_commut'')
+- - - - [x] Existential Quantification
+- - - - - [x] Exercise: 2 stars, standard, optional (ex\_ev\_Sn)
+- - - [x] Equality
+- - - - [x] Exercise: 2 stars, standard (equality\_\_leibniz\_equality)
+- - - - [x] Exercise: 5 stars, standard, optional (leibniz\_equality\_\_equality)
+- - [x] Induction Principles
+- - - [x] Basics
+- - - - [x] Exercise: 2 stars, standard, optional (plus\_one\_r')
+- - - - [x] Exercise: 1 star, standard, optional (rgb)
+- - - - [x] Exercise: 1 star, standard, optional (natlist1)
+- - - - [x] Exercise: 1 star, standard, optional (byntree\_ind)
+- - - - [x] Exercise: 1 star, standard, optional (ex\_set)
+- - - [x] Polymorphism
+- - - - [x] Exercise: 1 star, standard, optional (tree)
+- - - - [x] Exercise: 1 star, standard, optional (mytype)
+- - - - [x] Exercise: 1 star, standard, optional (foo)
+- - - - [x] Exercise: 1 star, standard, optional (foo')
+- - - [x] More on the `induction` Tactic
+- - - - [x] Exercise: 1 star, standard, optional (plus\_explicit\_prop)
+- - [x] Properties of Relations
+- - - [x] Basic Properties
+- - - - [x] Partial Functions
+- - - - - [x] Exercise: 2 stars, standard, optional (total\_relation\_not\_partial)
+- - - - - [x] Exercise: 2 stars, standard, optional (empty\_relation\_partial)
+- - - - [x] Transitive Relations
+- - - - - [x] Exercise: 2 stars, standard, optional (le\_trans\_hard\_way)
+- - - - - [x] Exercise: 2 stars, standard, optional (lt\_trans'')
+- - - - - [x] Exercise: 1 star, standard, optional (le\_S\_n)
+- - - - - [x] Exercise: 2 stars, standard, optional (le\_Sn\_n\_inf)
+- - - - - [x] Exercise: 1 star, standard, optional (le\_Sn\_n)
+- - - - [x] Symmetric and Antisymmetric Relations
+- - - - - [x] Exercise: 2 stars, standard, optional (le\_not\_symmetric)
+- - - - - [x] Exercise: 2 stars, standard, optional (le\_antisymmetric)
+- - - - - [x] Exercise: 2 stars, standard, optional (le\_step)
+- - - [x] Reflexive, Transitive Closure
+- - - - [x] Exercise: 2 stars, standard, optional (rsc\_trans)
+- - - - [x] Exercise: 3 stars, standard, optional (rtc\_rsc\_coincide)
+- - [x] Simple Imperative Programs
+- - - [x] Coq Automation
+- - - - [x] Tacticals
+- - - - - [x] The `repeat` Tactical
+- - - - - - [x] Exercise: 3 stars, standard (optimize\_0plus\_b\_sound)
+- - - - - - [x] Exercise: 4 stars, standard, optional (optimize)
+- - - [x] Evaluation as a Relation
+- - - - [x] Inference Rule Notation
+- - - - - [x] Exercise: 1 star, standard, optional (beval\_rules)
+- - - - [x] Equivalence of the Definitions
+- - - - - [x] Exercise: 3 stars, standard (bevalR)
+- - - [x] Evaluating Commands
+- - - - [x] Evaluations as a Relation
+- - - - - [x] Operational Semantics
+- - - - - - [x] Exercise: 2 stars, standard (ceval\_example2)
+- - - - - - [x] Exercise: 3 stars, standard, optional (pup\_to\_n)
+- - - [x] Reasoning About Imp Programs
+- - - - [x] Exercise: 3 stars, standard, recommended (XtimesYinZ\_spec)
+- - - - [x] Exercise: 3 stars, standard, recommended (loop\_never\_stops)
+- - - - [x] Exercise: 3 stars, standard (no\_whiles\_eqv)
+- - - - [x] Exercise: 4 stars, standard (no\_whiles\_terminating)
+- - - [x] Additional Exercises
+- - - - [x] Exercise: 3 stars, standard (stack\_compiler)
+- - - - [x] Exercise: 4 stars, advanced (stack\_compiler\_correct)
+- - - - [x] Exercise: 3 stars, standard, optional (short\_circuit)
+- - - - [x] Exercise: 4 stars, advanced (break\_imp)
+- - - - [x] Exercise: 3 stars, advanced, optional (while\_break\_true)
+- - - - [x] Exercise: 4 stars, advanced, optional (ceval\_deterministic)
+- - - - [x] Exercise: 4 stars, standard, optional (add\_for\_loop)
+- - [x] An Evaluation Function for Imp
+- - - [x] A Step-Indexed Evaluator
+- - - - [x] Exercise: 2 stars, standard, recommended (pup\_to\_n)
+- - - - [x] Exercise: 2 stars, standard, optional (peven)
+- - - [x] Relational vs. Step-Indexed Evaluation
+- - - - [x] Exercise: 4 stars, standard (ceval\_step\_\_ceval\_inf)
+- - - - [x] Exercise: 3 stars, standard, recommended (ceval\_\_ceval\_step)
+
+-->
