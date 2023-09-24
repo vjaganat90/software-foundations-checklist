@@ -207,7 +207,7 @@ This checklist is for the book version  :  Version 6.0 (2021-05-26 09:57, Coq 8.
 - - - - [x] The `remember` Tactic
 - - - - - [x] Exercise: 4 stars, standard, optional (exp\_match\_ex2)
 - - - - - [x] Exercise: 5 stars, standard (weak_pumping)
-- - - - - [ ] Exercise: 5 stars, advanced (pumping)
+- - - - - [ ] Exercise: 5 stars, advanced (pumping) (_Almost done_)
 - - - [x] Case Study: Improving Reflection
 - - - - [x] Exercise: 2 stars, standard, recommended (reflect\_iff)
 - - - - [x] Exercise: 3 stars, standard, recommended (eqbP\_practice)
